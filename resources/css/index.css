@@ -57,7 +57,6 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-
 }
 .nav {
   margin-top: 2rem;
@@ -98,7 +97,6 @@ a {
   flex-direction: row;
   height: 100vh;
   width: 100%;
-
 }
 
 .text-container {
@@ -108,12 +106,10 @@ a {
   gap: 40px 0px;
   margin-left: 2rem;
 }
-.line{
-
-    
-    height: .1rem;
-    background-color: gold;
-    width: 50%;
+.line {
+  height: 0.1rem;
+  background-color: gold;
+  width: 50%;
 }
 h3 {
   font-family: var(--font1);
@@ -135,56 +131,51 @@ button {
   border: #b1b1b1 1px solid;
   color: var(--text-color);
 }
-.images{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    height: 80%;
+.images {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 80%;
 }
-img{
-    height: 900px;
-    object-fit:contain ;
+img {
+  height: 900px;
+  object-fit: contain;
 }
-.socials{
-    position: fixed;
-    right: 0;
-    margin: 4rem;
-    margin-right: 10rem;
-    display: flex;
-    align-self: flex-end;
-    z-index: 2;
-    
-    gap: 3rem;
+.socials {
+  position: fixed;
+  right: 0;
+  margin: 4rem;
+  margin-right: 10rem;
+  display: flex;
+  align-self: flex-end;
+  z-index: 2;
+
+  gap: 3rem;
 }
 
-.scroll{
-    cursor: pointer;
-    position: fixed;
-    left: 0;
-    margin: 4rem;
-    margin-bottom: 5rem;
-    
-    display: flex;
-    align-self: flex-end;
-    flex-direction: column;
-    gap: .5rem;
-    width: 200px;
-    transition: 600ms;
-
-
+.scroll {
+  cursor: pointer;
+  position: fixed;
+  left: 0;
+  margin: 4rem;
+  margin-bottom: 5rem;
+  display: flex;
+  align-self: flex-end;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 200px;
+  transition: 600ms;
 }
-.scroll p{
-
-    transform: rotate(-90deg);
+.scroll p {
+  transform: rotate(-90deg);
 }
-i{
-    font-size: 1.4rem;
+i {
+  font-size: 1.4rem;
 }
 
-#last{
-  
-    margin-top: 400rem;
-    float: bottom;
-    align-self: flex-end;
+#last {
+  margin-top: 400rem;
+  float: bottom;
+  align-self: flex-end;
 }
