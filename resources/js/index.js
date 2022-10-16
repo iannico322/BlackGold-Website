@@ -4,7 +4,7 @@ const last = document.querySelector('.last')
 const text = document.querySelector('.text')
 const arr = document.querySelector('.arr')
 let direction = "#last"
-let di = 1
+let di = 2
 down.addEventListener('click',()=>{
     if(di  % 2 ==0){
         direction =  "#last"
