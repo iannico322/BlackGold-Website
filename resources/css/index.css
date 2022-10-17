@@ -253,10 +253,10 @@ i:hover {
     justify-content: space-between;
   }
   .logo{
-    margin-left: 2rem;
+    margin-left: 20%;
   }
   .borger{
-    margin-right: 2rem;
+    margin-right:  20%;
   }
   .hide,.borger{
     position: relative;
