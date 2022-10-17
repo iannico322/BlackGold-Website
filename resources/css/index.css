@@ -37,6 +37,7 @@ body {
   margin: 0;
   padding: 0;
 
+
   background-image: linear-gradient(
     to right top,
     #141414,
@@ -89,10 +90,15 @@ ul {
 }
 li {
   list-style: none;
+  
 }
 a {
   text-decoration: none;
   color: var(--text-color);
+  padding: 1rem .2rem;
+}
+a:hover{
+  color: goldenrod;
 }
 
 .main-content {
@@ -166,6 +172,39 @@ img {
   height: 900px;
   object-fit: contain;
 }
+
+.main-content3 {
+  padding-top: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  margin-bottom: 2rem;
+  gap: 3rem;
+}
+
+.text-box {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+ 
+  
+}
+.text-box2 {
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  text-align: right;
+  
+}
+
+
+
 .socials {
   position: absolute;
   right: 0;
@@ -193,11 +232,9 @@ img {
   flex-wrap: nowrap;
   transition: 600ms;
   width: 160px;
-}
-.scroll p {
-  
   transform: rotate(-90deg);
 }
+
 
 i{
   transition: 200ms ease-in-out;
@@ -217,23 +254,23 @@ i:hover {
 .hidden{
   Opacity: 0;
   filter: blur(5px);
-
   transform: translateY(2rem) ;
-  transition: 600ms ease-in-out;
+  transition: 900ms ;
+  
 }  
 .show {
   opacity: 1;
   filter: blur(0);
-
-  transition: 600ms ease-in-out;
+  transition-delay: 800ms ;
+  transition: 900ms ;
   transform: translateY(0);
-  transform: translateXx(0);
+
 }
 .borger{
   position: absolute;
   right: 0;
   z-index: -4;
-
+ 
   visibility: hidden;
 }
 .hide{
@@ -245,6 +282,15 @@ i:hover {
   visibility: hidden;
   justify-self: center;
   align-self: center;
+}
+
+#copyright{
+  font-family: var(--font1);
+  color: #5f5d5f;
+  width: 100%;
+  font-size: .8rem;
+  padding-bottom: 20px;
+ 
 }
 
 @media screen and (max-width: 1200px) {
@@ -271,10 +317,11 @@ i:hover {
 
   .text-container{
     margin-left: -4rem;
-    width: 70%;
+    width: 60%;
   } 
   .text-container h3{
-    font-size: 2rem;
+    width: 80%;
+    font-size: 3rem;
   }
   .images {
     position: absolute;
@@ -340,7 +387,21 @@ i:hover {
     margin-bottom: 5rem;
     margin-left: 20px;
   }
-
+  .text-box h3{
+    font-size: 2.3rem;
+  }
+  .text-box p{
+    font-size: 1rem;
+  }
+  #copyright{
+    font-family: var(--font1);
+    font-weight: 200;
+    font-size: .7rem;
+    padding-bottom: 20px;
+    bottom: 0;
+    float: bottom;
+    height: 2rem;
+  }
 
 
   }

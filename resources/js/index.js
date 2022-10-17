@@ -7,13 +7,11 @@ let direction = "#last";
 let di = 2;
 down.addEventListener("click", () => {
   if (di % 2 == 0) {
-    direction = "#last";
-    arr.textContent = " ";
-    text.textContent = " Scroll Up  •  >";
+    direction = "#copyright";
+    text.textContent = " Scroll Up  -  >";
   } else {
     direction = "#main";
-    arr.textContent = "< • ";
-    text.textContent = "Scroll Down ";
+    text.textContent = "< - Scroll Down ";
   }
   last.href = direction;
 
@@ -21,3 +19,5 @@ down.addEventListener("click", () => {
   console.log(di);
   di += 1;
 });
+
+

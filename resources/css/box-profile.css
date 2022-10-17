@@ -12,6 +12,7 @@
 }
 .main-content2 {
   display: flex;
+  padding-top: 2rem;
   gap: 40px;
   justify-content: center;
   align-content: flex-start;
