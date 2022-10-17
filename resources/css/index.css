@@ -165,16 +165,16 @@ img {
   object-fit: contain;
 }
 .socials {
-  position: fixed;
+  position: absolute;
   right: 0;
   margin: 4rem;
   margin-right: 10rem;
   display: flex;
   align-self: flex-end;
   z-index: 2;
-
   gap: 3rem;
 }
+
 
 .scroll {
   cursor: pointer;
@@ -195,8 +195,14 @@ img {
 .scroll p {
   transform: rotate(-90deg);
 }
-i {
+
+i{
+  transition: 200ms ease-in-out;
   font-size: 1.4rem;
+}
+i:hover {
+  transition: 200ms ease-in-out;
+  color:goldenrod;
 }
 
 #last {
