@@ -292,7 +292,14 @@ i:hover {
   padding-bottom: 20px;
  
 }
-
+@media screen and (max-width: 1400px){
+  ul{
+    visibility: hidden
+  }
+  .options{
+    visibility: visible;
+  }
+}
 
 @media screen and (max-width: 1200px) {
 
