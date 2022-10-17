@@ -60,6 +60,8 @@ body {
 .container {
   display: flex;
   flex-direction: column;
+
+
 }
 .nav {
   margin-top: 2rem;
@@ -188,11 +190,12 @@ img {
   align-self: flex-end;
   flex-direction: column;
   gap: 0.5rem;
-  width: 200px;
+  flex-wrap: nowrap;
   transition: 600ms;
-  width: 200px;
+  width: 160px;
 }
 .scroll p {
+  
   transform: rotate(-90deg);
 }
 
@@ -226,5 +229,77 @@ i:hover {
   transform: translateY(0);
   transform: translateXx(0);
 }
+.borger{
+  position: absolute;
+  right: 0;
+  z-index: -4;
+
+  visibility: hidden;
+}
+.hide{
+  cursor: pointer;
+  position: absolute;
+
+  z-index: -4;
+
+  visibility: hidden;
+  justify-self: center;
+  align-self: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .hide,.borger{
+    position: relative;
+    visibility: visible;
+    justify-content: center;
+    cursor: pointer;
+  }
+  ul{
+    position: absolute;
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .text-container{
+    margin-left: -4rem;
+    width: 70%;
+  } 
+  .text-container h3{
+    font-size: 2rem;
+  }
+  .images {
+    position: absolute;
+    z-index: -8;
+    height: 90%;
+    overflow: hidden;
+    width: 100%;
+
+  }
+  .main-pic{
+    margin-left: 10rem;
+    height: 40rem;
+  }
+  .picture-container {
+    padding-left: 30px;
+    padding-right: 50px;
+  }
+
+  .scroll {
+
+    position: fixed;
+    z-index: 2;
+    float: right;
+    left:auto;
+    right: 0;
+    bottom: 20px;
+    margin: 0rem;
+    margin-bottom: 5rem;
+    margin-left: 20px;
+  }
+
+
+
+  }
 
 
