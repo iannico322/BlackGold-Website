@@ -293,6 +293,7 @@ i:hover {
  
 }
 
+
 @media screen and (max-width: 1200px) {
 
   .nav{
@@ -308,13 +309,32 @@ i:hover {
     position: relative;
     visibility: visible;
     justify-content: center;
+  
+  }
+  .borger{
     cursor: pointer;
   }
   ul{
-    position: absolute;
     visibility: hidden;
-  }
+    margin-top: 18rem;
+    margin-right: 20%;
+    position: absolute;
+    font-size: .8rem;
+    gap: 2rem;
+    display: flex;
+    
+    flex-wrap: wrap;
+    right: 0;
+    flex-direction: column;
+    
+    align-items:flex-end;
+    width: 50px;
 
+   
+  }
+  li{
+    text-align: right;
+  }
   .text-container{
     margin-left: -4rem;
     width: 60%;
@@ -342,6 +362,7 @@ i:hover {
 }
 
 @media screen and (max-width: 600px) {
+
   .nav{
     justify-content: space-between;
   }
@@ -401,6 +422,29 @@ i:hover {
     bottom: 0;
     float: bottom;
     height: 2rem;
+  }
+  .borger{
+    cursor: pointer;
+  }
+  ul{
+    margin-top: 18rem;
+    margin-right: 2.8rem;
+    position: absolute;
+    font-size: .8rem;
+    gap: 2rem;
+    display: flex;
+    
+    flex-wrap: wrap;
+    right: 0;
+    flex-direction: column;
+    
+    align-items:flex-end;
+    width: 50px;
+
+   
+  }
+  li{
+    text-align: right;
   }
 
 
