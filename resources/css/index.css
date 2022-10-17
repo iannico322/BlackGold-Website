@@ -248,6 +248,16 @@ i:hover {
 }
 
 @media screen and (max-width: 1200px) {
+
+  .nav{
+    justify-content: space-between;
+  }
+  .logo{
+    margin-left: 2rem;
+  }
+  .borger{
+    margin-right: 2rem;
+  }
   .hide,.borger{
     position: relative;
     visibility: visible;
@@ -258,9 +268,42 @@ i:hover {
     position: absolute;
     visibility: hidden;
   }
+
+  .text-container{
+    margin-left: -4rem;
+    width: 70%;
+  } 
+  .text-container h3{
+    font-size: 2rem;
+  }
+  .images {
+    position: absolute;
+    z-index: -8;
+    height: 90%;
+    overflow: hidden;
+    width: 100%;
+
+  }
+  .main-pic{
+    margin-left: 50%;
+    height: 50rem;
+  }
+  .picture-container {
+    padding-left: 30px;
+    padding-right: 50px;
+  }
 }
 
 @media screen and (max-width: 600px) {
+  .nav{
+    justify-content: space-between;
+  }
+  .logo{
+    margin-left: 2rem;
+  }
+  .borger{
+    margin-right: 2rem;
+  }
   .text-container{
     margin-left: -4rem;
     width: 70%;
